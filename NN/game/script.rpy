@@ -23,6 +23,8 @@ label start:
 
     e "Has creado un nuevo juego Ren'Py."
 
+    show eileen sad
+
     e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
 
     # Finaliza el juego:
