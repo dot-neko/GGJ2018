@@ -1,7 +1,7 @@
 label pregunta3:
 
     menu:
-        "¿Qué puedes hacer por la compañía que nadie mas pueda?"
+        "¿Qué puedes hacer por la compania que nadie mas pueda?"
         #Opcion Verde
         "Soy una persona muy dedicada, le daría prioridad a mi trabajo":
             $trabajo = True

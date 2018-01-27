@@ -1,7 +1,7 @@
 label pregunta2:
 
     menu:
-        "¿Qué disponibilidad horaria tienes?"
+        "¿Que disponibilidad horaria tienes?"
         #Opcion Verde
         "Tengo disponibilidad horaria y puedo trabajar horas extras.":
             $horasextras = True
@@ -13,7 +13,7 @@ label pregunta2:
 
 
         #Opcion Roja
-        "Sólo estoy dispuesto a trabajar de mañana, las tardes y noches son para mi.":
+        "Solo estoy dispuesto a trabajar de mañana, las tardes y noches son para mi.":
             $horasextras = False
             $variosturnos = False
 
