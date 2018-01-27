@@ -15,7 +15,7 @@ label pregunta2:
         #Opcion Naranja
         "Si es posible, preferiría trabajar de mañana, pero me adapto.":
             $variosturnos = True
-            
+            c "Sinceramente, creo que puedo rendir mejor por la mañana. Puedo adaptarme al horario que dispongan, de todas formas."
 
 
         #Opcion Roja
