@@ -2,32 +2,48 @@
 
 # Declara los personajes usados en el juego como en el ejemplo:
 
-define e = Character("Eileen")
+#Entrevistador cuando todavia no se presento
+define e = Character("Entrevistador")
+
+#Preguntar el nombre del personaje o decidir uno si lo deja en blanco
+define c = Character("PP")
+
+#Nombre entrevistador una vez que se presenta
+define a = Character("Andres")
 
 
 # El juego comienza aquí.
 
 label start:
+    # El prologo es una pantalla negra con monologo del PP
 
-    # Muestra una imagen de fondo:
+    call prologo
+
+    # Muestra una imagen de fondo inicial
+
+    #scene bg_one
+
+    # Muestra la imagen de fondo a usar en el juego
 
     scene bg room
+    
+    # Llama a la intro del juego
 
-    # Muestra un personaje:
+    call intro
 
-    show eileen happy
+    # Llama a la primer pregunta
 
-    # Presenta las líneas del diálogo.
+    "primer PREGUNTA"
 
-    "¡Hola, mundo!"
+    # Llama a la segunda pregunta
 
-    call prologue
+    e "Segunda pregunta"
 
-    e "Has creado un nuevo juego Ren'Py."
+    # Llama a la tercer pregunta
 
-    show eileen sad
+    e "Y por último: "
 
-    e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
+    # Evaluacion de las respuestas
 
     # Finaliza el juego:
 

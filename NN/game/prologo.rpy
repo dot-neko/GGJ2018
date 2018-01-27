@@ -1,4 +1,4 @@
 label prologo:
-	"Esto es el prologo del juego"
+    "Esto es el prologo del juego"
 
-	return
+    return
