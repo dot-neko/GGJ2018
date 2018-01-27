@@ -5,11 +5,17 @@ label pregunta2:
         #Opcion Verde
         "Tengo disponibilidad horaria y puedo trabajar horas extras.":
             $horasextras = True
+            c "Estoy disponible para trabajar en los horarios que dispongan, en el tiempo que necesiten."
+            #Cara pensando
+            a "Mira que para trabajar mucho tiempo tienes que saber manejar el estrés."
+            #cara pensando
+            a "Pero me imagino que no estas tomando esta decisión a la ligera, así que continuemos."
             
 
         #Opcion Naranja
         "Si es posible, preferiría trabajar de mañana, pero me adapto.":
             $variosturnos = True
+            
 
 
         #Opcion Roja

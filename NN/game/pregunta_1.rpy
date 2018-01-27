@@ -30,7 +30,7 @@ label pregunta1:
             #cara sarcastica
             a "Aja, me imaginaba que tus capacidades eran superiores"
             #cara pensando
-            a "De acuerdo, podemos ir trabajando sobre esto."
+            a "De acuerdo, vamos a ver como podemos avanzar sobre esto."
 
 
     return
