@@ -14,14 +14,10 @@ label pregunta1:
             a "De acuerdo, podemos ir trabajando sobre esto."
 
         #Opcion Naranja
-<<<<<<< HEAD
+
         "Me gustaría formar un equipo con mente abierta que me cuestione":
             $practico = False
             $complejo = True
-=======
-        "Me gustaria formar un equipo con mente abierta que me cuestione":
-            $equipo_pequeno = False
->>>>>>> 600e16fdccd652bdde99b35d8efc2725133b9c90
             #cara sarcastica
             a "Bien, bien. Veo que reconoces los desafios."
             #cara pensando
