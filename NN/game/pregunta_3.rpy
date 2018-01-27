@@ -11,8 +11,8 @@ label pregunta3:
 
         #Opcion Naranja
         "Soy una persona trabajadora y social, puedo crear un buen ambiente mientras trabajo.":
-            $ssocial = True
-            $scompleja = False 
+            $scompleja = False
+            $ssocial = True 
             
         #Opcion Roja
         "Soy el mejor en mi campo y todos saben eso.":

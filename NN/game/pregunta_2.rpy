@@ -11,7 +11,6 @@ label pregunta2:
             #cara pensando
             a "Pero me imagino que no estas tomando esta decisión a la ligera, así que continuemos."
             
-
         #Opcion Naranja
         "Si es posible, preferiría trabajar de mañana, pero me adapto.":
             $variosturnos = True
@@ -22,5 +21,6 @@ label pregunta2:
         "Solo estoy dispuesto a trabajar de mañana, las tardes y noches son para mi.":
             $horasextras = False
             $variosturnos = False
+            c "Creo que en la entrevista anterior había quedado claro mi preferencia. Sólo trabajo por la mañana"
 
     return
