@@ -1,37 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-<<<<<<< HEAD
-  File "game/script.rpy", line 44, in script
-    if $practico = True and $complejo = True:
-SyntaxError: invalid syntax (game/script.rpy, line 44)
-=======
   File "game/script.rpy", line 48, in script
-    if $practico = False and $complejo = True:
+    if (practico == False and $complejo == True):
 SyntaxError: invalid syntax (game/script.rpy, line 48)
->>>>>>> 083a58a89cf9f4359426b6d8fe0ecfac0cfcf4f8
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/script.rpy", line 44, in script
-    if $practico = True and $complejo = True:
-=======
   File "game/script.rpy", line 48, in script
-    if $practico = False and $complejo = True:
->>>>>>> 083a58a89cf9f4359426b6d8fe0ecfac0cfcf4f8
+    if (practico == False and $complejo == True):
   File "C:\game\renpy-6.99.13-sdk\renpy\ast.py", line 1702, in execute
     if renpy.python.py_eval(condition):
   File "C:\game\renpy-6.99.13-sdk\renpy\python.py", line 1833, in py_eval
     code = py_compile(code, 'eval')
   File "C:\game\renpy-6.99.13-sdk\renpy\python.py", line 630, in py_compile
     raise e
-<<<<<<< HEAD
-SyntaxError: invalid syntax (game/script.rpy, line 44)
-=======
 SyntaxError: invalid syntax (game/script.rpy, line 48)
->>>>>>> 083a58a89cf9f4359426b6d8fe0ecfac0cfcf4f8
 
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135
