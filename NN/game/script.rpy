@@ -3,13 +3,13 @@
 # Declara los personajes usados en el juego como en el ejemplo:
 
 #Entrevistador cuando todavia no se presento
-define e = Character("Entrevistador")
+define e = Character("Entrevistador", color="#c8ffc8")
 
 #Preguntar el nombre del personaje o decidir uno si lo deja en blanco
-define c = Character("PP")
+define c = Character("PP", color="#c8c8ff")
 
 #Nombre entrevistador una vez que se presenta
-define a = Character("Andres")
+define a = Character("Andres", color="#c8ffc8")
 
 
 # El juego comienza aquí.
@@ -28,20 +28,16 @@ label start:
     scene bg room
     
     # Llama a la intro del juego
-
-    #call intro
+    call intro
 
     # Llama a la primer pregunta
     call pregunta1
-    "primer PREGUNTA"
 
     # Llama a la segunda pregunta
     call pregunta2
-    e "Segunda pregunta"
 
     # Llama a la tercer pregunta
 
-    e "Y por último: "
     call pregunta3
     # Evaluacion de las respuestas
 
