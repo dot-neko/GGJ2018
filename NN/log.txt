@@ -1,4 +1,4 @@
-Sat Jan 27 17:51:10 2018
+Sat Jan 27 18:16:23 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
@@ -7,7 +7,7 @@ Bootstrap to the start of init.init took 0.09s
 Early init took 0.00s
 Loader init took 0.04s
 Loading error handling took 0.02s
-Loading script took 0.14s
+Loading script took 0.16s
 Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.12s
@@ -19,14 +19,14 @@ Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
-Creating interface object took 0.02s
+Creating interface object took 0.03s
 Cleaning stores took 0.00s
 Init translation took 0.04s
-Build styles took 0.00s
+Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.07s
-Prepare screens took 0.05s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.04s
 Running _start took 0.00s
@@ -430,57 +430,25 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.40199995041s
+Total time until interface ready: 1.41400003433s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.059000 seconds.
-- Frame drawn at 0.059000 seconds.
-- Frame drawn at 0.060000 seconds.
-- Frame drawn at 0.077000 seconds.
-- 0.077000 seconds to render 5 frames.
-
-Full traceback:
-  File "game/script.rpy", line 58, in script call
-    call resultados
-  File "game/respuesta final.rpy", line 4, in script
-    c "En el horario de, [respuesta2]"
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
-    who(what, *args, **kwargs)
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\character.py", line 902, in __call__
-    what = what_pattern.replace("[what]", sub(what, translate=translate))
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\character.py", line 884, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\substitutions.py", line 242, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 646, in get_field
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'respuesta2'
-
-While running game code:
-  File "game/script.rpy", line 58, in script call
-    call resultados
-  File "game/respuesta final.rpy", line 4, in script
-    c "En el horario de, [respuesta2]"
-KeyError: u'respuesta2'
-Traceback (most recent call last):
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\execution.py", line 468, in run
-    node.execute()
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\exports.py", line 1173, in say
-    who(what, *args, **kwargs)
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\character.py", line 902, in __call__
-    what = what_pattern.replace("[what]", sub(what, translate=translate))
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\character.py", line 884, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\substitutions.py", line 242, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 646, in get_field
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'respuesta2'
+- Frame drawn at 0.055000 seconds.
+- Frame drawn at 0.056000 seconds.
+- Frame drawn at 0.057000 seconds.
+- Frame drawn at 0.074000 seconds.
+- 0.074000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.19s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
