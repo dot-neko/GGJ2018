@@ -29,5 +29,14 @@ label pregunta1:
         "Creo que me encuentro en condiciones para liderar cualquier equipo":
             $equipo_pequeno = False
             $equipo_dificil = True
+            
+            #cara sarcastica
+
+            a "Aja, me imaginaba que tus capacidades eran superiores"
+
+            #cara pensando
+
+            a "De acuerdo, podemos ir trabajando sobre esto."
+
 
     return
