@@ -4,7 +4,8 @@ label pregunta1:
         "Si pudieras elegir el trabajo de supervisor ideal para ti, ¿cual seria?"
         #Opcion Verde
         "Para empezar estaria bien un equipo pequeño":
-            $equipo_pequeno = True
+            $practico = True
+            $complejo = False
             c "Sinceramente, me parece apropiado comenzar con un equipo pequeño."
             c "Mis habilidades son limitadas y no tengo mucha experiencia en el rubro, por lo que veo bien manejar un grupo chico de personas para poder dedicarles mi mayor atención."
             #Cara agradable
@@ -13,8 +14,10 @@ label pregunta1:
             a "De acuerdo, podemos ir trabajando sobre esto."
 
         #Opcion Naranja
-        "Me gustaria formar un equipo con mente abierta que me cuestione":
-            $equipo_pequeno = False
+
+        "Me gustaría formar un equipo con mente abierta que me cuestione":
+            $practico = False
+            $complejo = True
             #cara sarcastica
             a "Bien, bien. Veo que reconoces los desafios."
             #cara pensando
@@ -22,8 +25,8 @@ label pregunta1:
 
         #Opcion Roja
         "Creo que me encuentro en condiciones para liderar cualquier equipo":
-            $equipo_pequeno = False
-            $equipo_dificil = True
+            $practico = True
+            $complejo = True
             #cara sarcastica
             a "Aja, me imaginaba que tus capacidades eran superiores"
             #cara pensando

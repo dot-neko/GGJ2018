@@ -41,6 +41,19 @@ label start:
     call pregunta3
     # Evaluacion de las respuestas
 
+    if $practico = True and $complejo = True
+
+    $repuesta1 = "un equipo veterano en la pcia de Santa Cruz"
+
+    if $practico = False and $complejo = True
+
+    $repuesta1 = "un equipo nuevo en la ciudad de Bs As"
+
+    if $practico = True and $complejo = False
+
+    $repuesta1 = "un equipo pequeño en la ciudad de Mendoza"
+
     # Finaliza el juego:
+
 
     return
