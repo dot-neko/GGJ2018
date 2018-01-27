@@ -1,39 +1,21 @@
-Sat Jan 27 14:59:19 2018
+Sat Jan 27 15:48:07 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135
  
 
-Bootstrap to the start of init.init took 0.11s
+Bootstrap to the start of init.init took 0.18s
 Early init took 0.01s
-Loader init took 0.03s
+Loader init took 0.04s
 Loading error handling took 0.05s
-Loading script took 1.21s
+Loading script took 0.35s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.15s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Lucas\\AppData\\Roaming/RenPy/backups\\NN':
-Dump and make backups. took 0.11s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
+
+File "game/respuesta final.rpy", line 3: end of line expected.
+    c "De acuerdo Don XXX, segun los resultados de esta entrevista, hemos decidido que usted trabajara con," $respuesta1,"en el horario de," $respuesta2, "y en el puesto de," $respuesta3.
+                                                                                                             ^
 DPI scale factor: 1.000000
-Creating interface object took 0.03s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.11s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
+Interface start took 0.21s
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -257,29 +239,4 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 2.61800003052s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.019667 seconds.
-- Frame drawn at 0.028667 seconds.
-- Frame drawn at 0.044667 seconds.
-- Frame drawn at 0.093667 seconds.
-- 0.093667 seconds to render 5 frames.
-
-Full traceback:
-  File "game/script.rpy", line 39, in script call
-    call pregunta2
-  File "C:\game\renpy-6.99.13-sdk\renpy\ast.py", line 1357, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 39, in script call
-    call pregunta2
-  File "C:\game\renpy-6.99.13-sdk\renpy\script.py", line 871, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'pregunta2'.
-
-While running game code:
-  File "game/script.rpy", line 39, in script call
-    call pregunta2
-  File "game/script.rpy", line 39, in script call
-    call pregunta2
-ScriptError: could not find label 'pregunta2'.
+Total time until interface ready: 1.54200005531s
