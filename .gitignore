@@ -7,3 +7,6 @@ NN/game/saves/persistent
 *.rpyb
 *.rpyc
 *.txt
+*.rpyc
+*.save
+NN/log.txt

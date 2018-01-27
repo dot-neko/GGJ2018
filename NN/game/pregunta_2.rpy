@@ -5,6 +5,7 @@ label pregunta2:
         #Opcion Verde
         "Tengo disponibilidad horaria y puedo trabajar horas extras.":
             $horasextras = True
+            $variosturnos = False
             c "Estoy disponible para trabajar en los horarios que dispongan, en el tiempo que necesiten."
             #Cara pensando
             a "Mira que para trabajar mucho tiempo tienes que saber manejar el estrés."
@@ -14,6 +15,7 @@ label pregunta2:
         #Opcion Naranja
         "Si es posible, preferiría trabajar de mañana, pero me adapto.":
             $variosturnos = True
+            $horasextras = False
             c "Sinceramente, creo que puedo rendir mejor por la mañana. Puedo adaptarme al horario que dispongan, de todas formas."
 
 
