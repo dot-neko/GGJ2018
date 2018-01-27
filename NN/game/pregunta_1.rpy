@@ -15,27 +15,18 @@ label pregunta1:
         #Opcion Naranja
         "Me gustaría formar un equipo con mente abierta que me cuestione":
             $equipo_pequeno = False
-
             #cara sarcastica
-
             a "Bien, bien. Veo que reconoces los desafíos."
-
             #cara pensando
-
             a "De acuerdo, podemos ir trabajando sobre esto."
-
 
         #Opcion Roja
         "Creo que me encuentro en condiciones para liderar cualquier equipo":
             $equipo_pequeno = False
             $equipo_dificil = True
-            
             #cara sarcastica
-
             a "Aja, me imaginaba que tus capacidades eran superiores"
-
             #cara pensando
-
             a "De acuerdo, podemos ir trabajando sobre esto."
 
 

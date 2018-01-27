@@ -1,4 +1,4 @@
-label pregunta1:
+label pregunta2:
 
     menu:
         "¿Qué disponibilidad horaria tienes?"

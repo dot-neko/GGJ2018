@@ -1,15 +1,16 @@
-label pregunta1:
+label pregunta3:
 
     menu:
         "¿Qué puedes hacer por la compañía que nadie mas pueda?"
         #Opcion Verde
         "Soy una persona muy dedicada, le daría prioridad a mi trabajo":
             $trabajo = True
+            a "Claro, a veces se puede ir avanzando "
             
 
         #Opcion Naranja
         "Soy una persona trabajadora y social, puedo crear un buen ambiente mientras trabajo.":
-            $social = true
+            $social = True
 
 
         #Opcion Roja
