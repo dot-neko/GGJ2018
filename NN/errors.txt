@@ -2,6 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/prologo.rpy", line 2: Tab characters are not allowed in Ren'Py scripts.
+File "game/pregunta_1.rpy", line 16: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Me gustaría formar un equipo con mente abierta que me cuestione"
+                                                                     ^
 
 Ren'Py Version: Ren'Py 6.99.14.3135

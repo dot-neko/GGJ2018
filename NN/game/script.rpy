@@ -29,20 +29,20 @@ label start:
     
     # Llama a la intro del juego
 
-    call intro
+    #call intro
 
     # Llama a la primer pregunta
-
+    call pregunta1
     "primer PREGUNTA"
 
     # Llama a la segunda pregunta
-
+    call pregunta2
     e "Segunda pregunta"
 
     # Llama a la tercer pregunta
 
     e "Y por último: "
-
+    call pregunta3
     # Evaluacion de las respuestas
 
     # Finaliza el juego:
