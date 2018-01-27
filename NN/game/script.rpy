@@ -21,6 +21,8 @@ label start:
 
     "¡Hola, mundo!"
 
+    call prologue
+
     e "Has creado un nuevo juego Ren'Py."
 
     show eileen sad

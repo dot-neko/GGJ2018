@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 24, in script call
+    call prologo
+  File "game/script.rpy", line 24, in script call
+    call prologo
+ScriptError: could not find label 'prologo'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 24, in script call
+    call prologo
+  File "C:\game\renpy-6.99.13-sdk\renpy\ast.py", line 1357, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 24, in script call
+    call prologo
+  File "C:\game\renpy-6.99.13-sdk\renpy\script.py", line 871, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'prologo'.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3135
+NN 1.0
