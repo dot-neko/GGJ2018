@@ -40,7 +40,7 @@ label start:
     # Respuesta 1
     if (practico == True and complejo == True):
 
-        $respuesta1 = "un equipo veterano en la pcia de Santa Cruz"
+        $respuesta1 = "un equipo veterano en la India "
 
     if (practico == False and complejo == True):
 
@@ -48,7 +48,7 @@ label start:
 
     if (practico == True and complejo == False):
 
-        $respuesta1 = "un equipo pequeño en la ciudad de Mendoza"
+        $respuesta1 = "un equipo pequeño en la Patagonia."
 
     #Respuesta 2
     #Opcion Roja
@@ -62,7 +62,7 @@ label start:
         $respuesta2 = "con un horario reducido, con opción a horas extras"
 
     #Opcion Verde
-    if (horasextras == True and variosturnos == False):
+    if (horasextras == True and variosturnos == True):
 
         $respuesta2 = "con un horario completo, con la opción a realizar horas extras"
     # Finaliza el juego:
@@ -71,17 +71,17 @@ label start:
     #Opcion Roja
     if (scompleja == True and ssocial == True):
 
-        $respuesta3 = ""
+        $respuesta3 = "Supervisor de un grupo pequeno de tecnicos en ruta."
 
     #Opcion Naranja
     if (scompleja == False and ssocial == True):
 
-        $respuesta3 = ""
+        $respuesta3 = "Supervisor de un grupo especializado en microinformatica."
 
     #Opcion Verde
     if (scompleja == True and ssocial == False):
 
-        $respuesta3 = ""
+        $respuesta3 = "Supervisor de un grupo grande de marketing."
     # Finaliza el juego:
     call resultados
 
