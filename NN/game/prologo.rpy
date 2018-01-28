@@ -3,7 +3,7 @@ label prologo:
     #Eleccion de nombre
 
     # The phrase in the brackets is the text that the game will display to prompt 
-	# the player to enter the name they've chosen.
+    # the player to enter the name they've chosen.
 
     $ player_name = renpy.input("¿Querés elegir tu nombre?")
 
