@@ -14,7 +14,7 @@ image black = "#000"
 #Fondo Blanco
 image white = "#fff"
 # El juego comienza aquí.
-
+scene fondo
 #show cancherito
 
 label start:
@@ -23,6 +23,7 @@ label start:
     call prologo
 
     #scene bg_one
+    scene fondoe 
     show sonrisa
     # Llama a la intro del juego
     call intro
