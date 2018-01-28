@@ -266,8 +266,32 @@ Texture testing:
 Total time until interface ready: 4.82099986076s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
+<<<<<<< HEAD
 - Frame drawn at 0.018667 seconds.
 - Frame drawn at 0.031667 seconds.
 - Frame drawn at 0.043667 seconds.
 - Frame drawn at 0.076667 seconds.
 - 0.076667 seconds to render 5 frames.
+=======
+<<<<<<< HEAD
+- Frame drawn at 0.017000 seconds.
+- Frame drawn at 0.030000 seconds.
+- Frame drawn at 0.045000 seconds.
+- Frame drawn at 0.088000 seconds.
+- 0.088000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.17s
+Build styles took 0.01s
+Load screen analysis took 0.08s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+=======
+- Frame drawn at 0.025667 seconds.
+- Frame drawn at 0.046667 seconds.
+- Frame drawn at 0.061667 seconds.
+- Frame drawn at 0.077667 seconds.
+- 0.077667 seconds to render 5 frames.
+The window was
+>>>>>>> 42fc5e9813be7b62ed4dbb2ddce175c87e985063
+>>>>>>> d9638890b0d7c52963f19905d42088a84cfe13b2
