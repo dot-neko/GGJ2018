@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Sun Jan 28 12:44:34 2018
+=======
+Sun Jan 28 12:58:00 2018
+>>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.29s
 Early init took 0.01s
 Loader init took 0.04s
@@ -20,6 +25,25 @@ Dump and make backups. took 0.23s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
+=======
+Bootstrap to the start of init.init took 0.31s
+Early init took 0.01s
+Loader init took 0.08s
+Loading error handling took 0.06s
+Loading script took 0.54s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.24s
+Loading analysis data took 0.15s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\louga\\AppData\\Roaming/RenPy/backups\\NN':
+Dump and make backups. took 0.23s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+>>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
 DPI scale factor: 1.000000
 Creating interface object took 0.06s
 Cleaning stores took 0.00s
@@ -27,13 +51,28 @@ Init translation took 0.05s
 Build styles took 0.02s
 Load screen analysis took 0.00s
 Analyze screens took 0.04s
+<<<<<<< HEAD
 Save screen analysis took 0.18s
 Prepare screens took 0.14s
+=======
+Save screen analysis took 0.20s
+Prepare screens took 0.20s
+>>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.16s
 Running _start took 0.00s
 Performance test:
+<<<<<<< HEAD
 Interface start took 0.04s
+=======
+Interface start took 0.07s
+Couldn't import angle renderer:
+Traceback (most recent call last):
+  File "C:\game\renpy-6.99.13-sdk\renpy\display\core.py", line 1884, in make_draw
+    __import__(mod)
+ImportError: DLL load failed: No se puede encontrar el módulo especificado.
+Unknown renderer: angle
+>>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -257,6 +296,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 5.42700004578s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -265,3 +305,13 @@ Total time until interface ready: 5.42700004578s
 - Frame drawn at 0.048666 seconds.
 - Frame drawn at 0.072667 seconds.
 - 0.072667 seconds to render 5 frames.
+=======
+Total time until interface ready: 3.5s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.017667 seconds.
+- Frame drawn at 0.027667 seconds.
+- Frame drawn at 0.047667 seconds.
+- Frame drawn at 0.075667 seconds.
+- 0.075667 seconds to render 5 frames.
+>>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
