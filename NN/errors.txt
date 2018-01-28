@@ -2,6 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/prologo.rpy", line 13: Tab characters are not allowed in Ren'Py scripts.
+File "game/script.rpy", line 26: expected 'name' not found.
+    show fondoe behind
+                      ^
 
 Ren'Py Version: Ren'Py 6.99.14.3135
