@@ -8,6 +8,7 @@ label pregunta3:
             $social = False
             c "Creo que el equipo toma forma sólo cuando hay una gran tarea por delante."
             show enormal
+            show csonrisa
             a "Cierto, a veces se puede ir avanzando sólo con un objetivo claro."
             c "Si, es un poco lo que tengo en mente para este trabajo."
 
@@ -15,6 +16,7 @@ label pregunta3:
         "Me interesa trabajar y tener buena onda con el equipo ◕ ◡ ◕ ":
             $compleja = False
             $social = True 
+            show csonrisa
             show ejodida
             show enormal
             c "Me interesa que el equipo funcione, con lo que el aspecto humano no puede faltar ante una gran tarea."
@@ -27,6 +29,7 @@ label pregunta3:
             c "Creo en mis habilidades y que puedo llevar adelante cualquier proyecto, sin importar las cualidades del equipo"
             show ejodida
             show etevasaenterar
+            show csorpresa
             a "Interesante. Creo que hay pocos perfiles adecuados como el suyo."
             a "Creo que existen varias oportunidades para que pueda desarrollar sus {b}habilidades únicas{/b}."
             show esonrisa

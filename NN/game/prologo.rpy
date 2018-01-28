@@ -5,6 +5,7 @@ label prologo:
     # The phrase in the brackets is the text that the game will display to prompt 
     # the player to enter the name they've chosen.
     scene black
+    show cancheron
     $ player_name = renpy.input("¿Querés elegir tu nombre?")
 
     $ player_name = player_name.strip()
