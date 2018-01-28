@@ -1,94 +1,39 @@
-<<<<<<< HEAD
-Sun Jan 28 13:04:43 2018
-=======
-<<<<<<< HEAD
-Sun Jan 28 12:44:34 2018
-=======
-Sun Jan 28 12:58:00 2018
->>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
->>>>>>> a8ec914eab0a3f3a90763269149b1ee2f6c3a4b0
+Sun Jan 28 13:17:08 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135
  
 
-<<<<<<< HEAD
-Bootstrap to the start of init.init took 0.29s
+Bootstrap to the start of init.init took 0.11s
 Early init took 0.01s
-Loader init took 0.04s
-Loading error handling took 0.09s
-Loading script took 2.54s
-Loading save slot metadata. took 0.15s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 1.21s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.38s
-Loading analysis data took 0.10s
-Analyze and compile ATL took 0.01s
+Running init code took 0.15s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Lucas\\AppData\\Roaming/RenPy/backups\\NN':
-Dump and make backups. took 0.23s
+Dump and make backups. took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
-=======
-Bootstrap to the start of init.init took 0.31s
-Early init took 0.01s
-Loader init took 0.08s
-Loading error handling took 0.07s
-Loading script took 0.58s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.25s
-Loading analysis data took 0.15s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\louga\\AppData\\Roaming/RenPy/backups\\NN':
-Dump and make backups. took 0.23s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-<<<<<<< HEAD
-Initial gc. took 0.05s
-=======
-Initial gc. took 0.06s
->>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
->>>>>>> a8ec914eab0a3f3a90763269149b1ee2f6c3a4b0
+Initial gc. took 0.02s
 DPI scale factor: 1.000000
-Creating interface object took 0.06s
+Creating interface object took 0.03s
 Cleaning stores took 0.00s
-<<<<<<< HEAD
-Init translation took 0.08s
-Build styles took 0.02s
+Init translation took 0.03s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.31s
-=======
-Init translation took 0.05s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-<<<<<<< HEAD
-Save screen analysis took 0.18s
-Prepare screens took 0.14s
-=======
-Save screen analysis took 0.20s
->>>>>>> a8ec914eab0a3f3a90763269149b1ee2f6c3a4b0
-Prepare screens took 0.20s
->>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
+Analyze screens took 0.02s
+Save screen analysis took 0.09s
+Prepare screens took 0.08s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.15s
+Save bytecode. took 0.08s
 Running _start took 0.00s
 Performance test:
-<<<<<<< HEAD
-Interface start took 0.04s
-=======
-Interface start took 0.07s
-Couldn't import angle renderer:
-Traceback (most recent call last):
-  File "C:\game\renpy-6.99.13-sdk\renpy\display\core.py", line 1884, in make_draw
-    __import__(mod)
-ImportError: DLL load failed: No se puede encontrar el módulo especificado.
-Unknown renderer: angle
->>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
+Interface start took 0.03s
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -312,40 +257,6 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-<<<<<<< HEAD
-Total time until interface ready: 3.61600017548s
+Total time until interface ready: 2.57800006866s
 - Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.018667 seconds.
-- Frame drawn at 0.038667 seconds.
-- Frame drawn at 0.054667 seconds.
-- Frame drawn at 0.085667 seconds.
-- 0.085667 seconds to render 5 frames.
-The window was minimized.
-The window was restored.
-
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-=======
-<<<<<<< HEAD
-Total time until interface ready: 5.42700004578s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.019666 seconds.
-- Frame drawn at 0.035666 seconds.
-- Frame drawn at 0.048666 seconds.
-- Frame drawn at 0.072667 seconds.
-- 0.072667 seconds to render 5 frames.
-=======
-Total time until interface ready: 3.5s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.017667 seconds.
-- Frame drawn at 0.027667 seconds.
-- Frame drawn at 0.047667 seconds.
-- Frame drawn at 0.075667 seconds.
-- 0.075667 seconds to render 5 frames.
->>>>>>> eb515e1c1c1753e54d096896b11264a0ad665f5b
->>>>>>> a8ec914eab0a3f3a90763269149b1ee2f6c3a4b0
+- 
