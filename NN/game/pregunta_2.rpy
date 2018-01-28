@@ -17,7 +17,7 @@ label pregunta2:
             $variosturnos = True
             $horasextras = False
             c "Sinceramente, creo que puedo rendir mejor por la mañana. Puedo adaptarme al horario que dispongan, de todas formas."
-            show e normal
+            show enormal
             a "Puede que no se encuentren todas las opciones disponibles. Igual lo vamos a tener en cuenta, no se preocupe."
 
 
