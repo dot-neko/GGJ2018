@@ -284,4 +284,7 @@ Full traceback:
 SyntaxError: invalid syntax (game/script.rpy, line 48)
 
 While running game code:
-  File "gam
+  File "game/script.rpy", line 48, in script
+    if (practico == False and $complejo == True):
+SyntaxError: invalid syntax (game/script.rpy, line 48)
+The window was minimized.
