@@ -25,7 +25,7 @@ label start:
     Show efondo
 
     #scene bg_one
-    show e sonrisa
+    show esonrisa
     # Llama a la intro del juego
     call intro
 
