@@ -19,5 +19,5 @@ image epregunta = "epregunta.png"
 
 image esonrisa = "esonrisa.png"
 
-
+image sonrisa1 = "1.png"
 
