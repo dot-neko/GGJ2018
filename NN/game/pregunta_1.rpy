@@ -8,9 +8,9 @@ label pregunta1:
             $complejo = False
             c "Sinceramente, me parece apropiado comenzar con un equipo pequeño."
             c "Mis habilidades son limitadas y no tengo mucha experiencia en el rubro, por lo que veo bien manejar un grupo chico de personas para poder dedicarles mi mayor atención."
-            #Cara agradable
+            show esonrisa
             a "Me parece bien que reconozcas tus capacidades. Eso es algo que no veo todos los dias."
-            #cara pensando
+            show enormal
             a "De acuerdo, podemos ir trabajando sobre esto."
 
         #Opcion Naranja
@@ -19,10 +19,9 @@ label pregunta1:
             $practico = False
             $complejo = True
             c "Me gustaría formar un equipo con personas de mente abierta que me cuestione"
-            #cara sarcastica flash
-            #cara normal
+            show ejodida
             a "Bien, bien. Veo que reconoces los desafios."
-            #cara pensando
+            show enormal
             a "De acuerdo, podemos ir trabajando sobre esto."
 
         #Opcion Roja
@@ -31,11 +30,10 @@ label pregunta1:
             $complejo = True
             $cabreo =+ 1
             c "Creo que me encuentro en condiciones para liderar cualquier equipo"
-            #cara sarcastica flash
-            #cara pensando
+            show ejodida
             a "Aja, me imaginaba que tus capacidades eran superiores. Esta en su evaluación de perfil."
             a "De acuerdo, vamos a ver como podemos avanzar sobre esto."
-            #cara normal
+            show enormal
 
 
     return

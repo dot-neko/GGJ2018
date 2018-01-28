@@ -15,20 +15,26 @@ image black = "#000"
 image white = "#fff"
 # El juego comienza aquí.
 
+#show cancherito
+
 label start:
     # El prologo es una pantalla negra con monologo del PP
 
     call prologo
 
-    # Muestra una imagen de fondo inicial
+    Show fondoe
 
     #scene bg_one
- 
+    show e sonrisa
     # Llama a la intro del juego
     call intro
 
+
     # Muestra la imagen de fondo a usar en el juego
     scene bg room
+
+
+    show epregunta
 
     # Llama a la primer pregunta
     call pregunta1
