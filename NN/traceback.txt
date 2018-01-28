@@ -1,15 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 48, in script
-    if $practico = False and $complejo = True:
-SyntaxError: invalid syntax (game/script.rpy, line 48)
+  File "game/script.rpy", line 37, in script call
+    call pregunta2
+  File "game/pregunta_2.rpy", line 29, in script
+    $cabreo + 1
+  File "game/pregunta_2.rpy", line 29, in <module>
+    $cabreo + 1
+NameError: name 'cabreo' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "game/script.rpy", line 48, in script
+<<<<<<< HEAD
+    if (practico == False and $complejo == True):
+=======
     if $practico = False and $complejo = True:
+>>>>>>> bd080b888c537dd49a26394505ec8327acc0701d
   File "C:\game\renpy-6.99.13-sdk\renpy\ast.py", line 1702, in execute
     if renpy.python.py_eval(condition):
   File "C:\game\renpy-6.99.13-sdk\renpy\python.py", line 1833, in py_eval
@@ -17,7 +26,20 @@ Full traceback:
   File "C:\game\renpy-6.99.13-sdk\renpy\python.py", line 630, in py_compile
     raise e
 SyntaxError: invalid syntax (game/script.rpy, line 48)
+=======
+  File "game/script.rpy", line 37, in script call
+    call pregunta2
+  File "game/pregunta_2.rpy", line 29, in script
+    $cabreo + 1
+  File "F:\Downloads\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "F:\Downloads\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/pregunta_2.rpy", line 29, in <module>
+    $cabreo + 1
+NameError: name 'cabreo' is not defined
+>>>>>>> 8b0acfb0d57ec06e098b1b882a7531387253f3fb
 
 Windows-8-6.2.9200
-Ren'Py 6.99.14.3135
+Ren'Py 6.99.13.2919
 NN 1.0
