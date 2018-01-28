@@ -2,6 +2,44 @@
 errors listed below, and try again.
 
 
-File "game/pregunta_1.rpy", line 5: indentation mismatch.
+File "game/script.rpy", line 71: if statement expects a non-empty block.
+    if (scompleja == True and ssocial == True):
+                                               ^
+
+File "game/script.rpy", line 73: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 75: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 77: expected statement.
+    >>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
+                                                    ^
+
+File "game/script.rpy", line 82: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 84: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 86: expected statement.
+    >>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
+                                                    ^
+
+File "game/script.rpy", line 91: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 93: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 95: expected statement.
+    >>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
+                                                    ^
 
 Ren'Py Version: Ren'Py 6.99.14.3135
