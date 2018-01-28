@@ -5,7 +5,7 @@ label pregunta2:
         #Opcion Verde
         "Necesito este laburo":
             $horasextras = True
-            $variosturnos = False
+            $variosturnos = True
             c "Estoy disponible para trabajar en los horarios que dispongan, en el tiempo que necesiten."
             show enormal
             a "Mira que para trabajar mucho tiempo tienes que saber manejar el estrés."

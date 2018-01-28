@@ -7,7 +7,6 @@ label pregunta3:
             $scompleja = True
             $ssocial = False
             c "Creo que el equipo toma forma sólo cuando hay una gran tarea por delante."
-            show ejodida
             show enormal
             a "Cierto, a veces se puede ir avanzando sólo con un objetivo claro."
             c "Si, es un poco lo que tengo en mente para este trabajo."
