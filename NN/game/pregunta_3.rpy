@@ -9,6 +9,7 @@ label pregunta3:
             c "Creo que el equipo toma forma sólo cuando hay una gran tarea por delante."
             show enormal
             a "Cierto, a veces se puede ir avanzando sólo con un objetivo claro."
+            c "Si, es un poco lo que tengo en mente para este trabajo."
 
         #Opcion Naranja
         "Me interesa trabajar y tener buena onda con el equipo ◕ ◡ ◕ ":
@@ -17,6 +18,7 @@ label pregunta3:
             show ejodida
             show enormal
             c "Me interesa que el equipo funcione, con lo que el aspecto humano no puede faltar ante una gran tarea."
+            a "Ciertamente, al tener un grupo que se conozca entre sí, los trabajos tienen mejor calidad"
             
         #Opcion Roja
         "Deal with it":

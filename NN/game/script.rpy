@@ -6,18 +6,17 @@
 define e = Character("Entrevistador", color="#c8ffc8")
 
 #Nombre entrevistador una vez que se presenta
-define a = Character("Chica", color="#c8ffc8")
+define a = Character("Andrea", color="#c8ffc8")
 
 #Fondo Negro
 image black = "#000"
-
 # El juego comienza aquí.
 
 #show cancherito
 
 label start:
     # El prologo es una pantalla negra con monologo del PP
-
+    play music "sounds/bg_sound.mp3"
     call prologo
     
     
@@ -71,17 +70,29 @@ label start:
     #Opcion Roja
     if (scompleja == True and ssocial == True):
 
+<<<<<<< HEAD
         $respuesta3 = "Supervisor de un grupo pequeno de tecnicos en ruta."
+=======
+        $respuesta3 = "coordinador de un área de mantenimiento a usuarios finales"
+>>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
 
     #Opcion Naranja
     if (scompleja == False and ssocial == True):
 
+<<<<<<< HEAD
         $respuesta3 = "Supervisor de un grupo especializado en microinformatica."
+=======
+        $respuesta3 = "coordinador de tareas entre los equipos de IT & diseño"
+>>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
 
     #Opcion Verde
     if (scompleja == True and ssocial == False):
 
+<<<<<<< HEAD
         $respuesta3 = "Supervisor de un grupo grande de marketing."
+=======
+        $respuesta3 = " supervisor de un equipo experimentado"
+>>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
     # Finaliza el juego:
     call resultados
 

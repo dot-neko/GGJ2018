@@ -1,6 +1,6 @@
 label resultados:
 
-    c "De acuerdo Sr Alvarez, segun los resultados de esta entrevista, hemos decidido que usted trabajara con, [respuesta1]"
+    c "De acuerdo Sr Alvarez, segun los resultados de esta entrevista, hemos decidido que usted trabajara en, [respuesta1]"
     c ", [respuesta2]"
     c "y en el puesto de, [respuesta3]"
     show esonrisa

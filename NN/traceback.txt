@@ -1,45 +1,47 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 37, in script call
-    call pregunta2
-  File "game/pregunta_2.rpy", line 29, in script
-    $cabreo + 1
-  File "game/pregunta_2.rpy", line 29, in <module>
-    $cabreo + 1
-NameError: name 'cabreo' is not defined
+  File "game/script.rpy", line 20, in script call
+    call prologo
+  File "game/prologo.rpy", line 8, in script
+    $ player_name = renpy.input("¿Querés elegir tu nombre?")
+  File "game/prologo.rpy", line 8, in <module>
+    $ player_name = renpy.input("¿Querés elegir tu nombre?")
+IOError: Couldn't find file 'bg_sound.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/script.rpy", line 48, in script
-<<<<<<< HEAD
-    if (practico == False and $complejo == True):
-=======
-    if $practico = False and $complejo = True:
->>>>>>> bd080b888c537dd49a26394505ec8327acc0701d
-  File "C:\game\renpy-6.99.13-sdk\renpy\ast.py", line 1702, in execute
-    if renpy.python.py_eval(condition):
-  File "C:\game\renpy-6.99.13-sdk\renpy\python.py", line 1833, in py_eval
-    code = py_compile(code, 'eval')
-  File "C:\game\renpy-6.99.13-sdk\renpy\python.py", line 630, in py_compile
-    raise e
-SyntaxError: invalid syntax (game/script.rpy, line 48)
-=======
-  File "game/script.rpy", line 37, in script call
-    call pregunta2
-  File "game/pregunta_2.rpy", line 29, in script
-    $cabreo + 1
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
+  File "game/script.rpy", line 20, in script call
+    call prologo
+  File "game/prologo.rpy", line 8, in script
+    $ player_name = renpy.input("¿Querés elegir tu nombre?")
+  File "C:\game\renpy-6.99.13-sdk\renpy\ast.py", line 848, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Downloads\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
+  File "C:\game\renpy-6.99.13-sdk\renpy\python.py", line 1804, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "game/pregunta_2.rpy", line 29, in <module>
-    $cabreo + 1
-NameError: name 'cabreo' is not defined
->>>>>>> 8b0acfb0d57ec06e098b1b882a7531387253f3fb
+  File "game/prologo.rpy", line 8, in <module>
+    $ player_name = renpy.input("¿Querés elegir tu nombre?")
+  File "C:\game\renpy-6.99.13-sdk\renpy\exports.py", line 820, in input
+    rv = renpy.ui.interact(mouse='prompt', type="input", roll_forward=roll_forward)
+  File "C:\game\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\game\renpy-6.99.13-sdk\renpy\display\core.py", line 2620, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\game\renpy-6.99.13-sdk\renpy\display\core.py", line 3242, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\game\renpy-6.99.13-sdk\renpy\audio\audio.py", line 976, in periodic_thread_main
+    periodic_pass()
+  File "C:\game\renpy-6.99.13-sdk\renpy\audio\audio.py", line 920, in periodic_pass
+    c.periodic()
+  File "C:\game\renpy-6.99.13-sdk\renpy\audio\audio.py", line 409, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "C:\game\renpy-6.99.13-sdk\renpy\audio\audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "C:\game\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'bg_sound.mp3'.
 
 Windows-8-6.2.9200
-Ren'Py 6.99.13.2919
+Ren'Py 6.99.14.3135
 NN 1.0
