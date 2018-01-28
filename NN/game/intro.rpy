@@ -1,6 +1,6 @@
 label intro:
     #Mostrar fondo del entrevistador
-    scene fondoe
+    scene fondo
     show enormal
     
     a "Buenas tardes; soy Andrea supervisora del area de contrataciones de RRHH, su entrevistadora."

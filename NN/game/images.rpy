@@ -2,9 +2,6 @@
 image fondo = "fondo.png"
 
 
-image fondoe = "fondoe.png"
-
-
 image ejodida = "ejodida.png"
 
 

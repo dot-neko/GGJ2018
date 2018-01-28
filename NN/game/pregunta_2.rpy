@@ -7,9 +7,9 @@ label pregunta2:
             $horasextras = True
             $variosturnos = False
             c "Estoy disponible para trabajar en los horarios que dispongan, en el tiempo que necesiten."
-            #Cara pensando
+            show enormal
             a "Mira que para trabajar mucho tiempo tienes que saber manejar el estrés."
-            #cara normal
+            show ejodida
             a "Pero me imagino que no estas tomando esta decisión a la ligera, así que continuemos."
             
         #Opcion Naranja
@@ -17,8 +17,7 @@ label pregunta2:
             $variosturnos = True
             $horasextras = False
             c "Sinceramente, creo que puedo rendir mejor por la mañana. Puedo adaptarme al horario que dispongan, de todas formas."
-            #Cara pensando flash
-            #Cara normal
+            show e normal
             a "Puede que no se encuentren todas las opciones disponibles. Igual lo vamos a tener en cuenta, no se preocupe."
 
 
@@ -28,12 +27,12 @@ label pregunta2:
             $variosturnos = False
             $cabreo =+ 1
             c "Creo que en la entrevista anterior había quedado claro mi preferencia. Sólo trabajo por la mañana"
-            #Cara Sorpresa flash
-            #Cara normal
+            show ejodida
             a "Cierto, quiza se nos escapó dentro de los datos del perfil."
             a "Lo vamos a tener en cuenta, no se preocupe."
-            #Cara sarcástica flash
-            #Cara normal
+            show etevasaenterar
+            
+            show epregunta
 
 
     return
