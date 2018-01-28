@@ -10,7 +10,7 @@ define a = Character("Chica", color="#c8ffc8")
 
 #Fondo Negro
 image black = "#000"
-play music "bg_sound.mp3" loop
+play music "sounds/bg_sound.mp3" loop
 # El juego comienza aquí.
 
 #show cancherito
