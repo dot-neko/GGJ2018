@@ -23,7 +23,7 @@ label start:
     call prologo
 
     #scene bg_one
-    show sonrisa1
+    show sonrisa
     # Llama a la intro del juego
     call intro
 
