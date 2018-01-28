@@ -1,5 +1,5 @@
 label pregunta1:
-
+scene fondoe
     menu:
         "Si pudieras elegir el trabajo de supervisor ideal para ti, ¿cual seria?"
         #Opcion Verde
