@@ -22,8 +22,6 @@ label start:
 
     call prologo
 
-    Show efondo
-
     #scene bg_one
     show esonrisa
     # Llama a la intro del juego

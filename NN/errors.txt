@@ -5,7 +5,7 @@ errors listed below, and try again.
 File "game/prologo.rpy", line 5: Tab characters are not allowed in Ren'Py scripts.
 
 File "game/script.rpy", line 25: expected statement.
-    Show fondoe
+    Show efondo
                ^
 
 Ren'Py Version: Ren'Py 6.99.14.3135
