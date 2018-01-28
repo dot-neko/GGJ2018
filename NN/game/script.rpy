@@ -10,14 +10,13 @@ define a = Character("Chica", color="#c8ffc8")
 
 #Fondo Negro
 image black = "#000"
-play music "sounds/bg_sound.mp3" loop
 # El juego comienza aquí.
 
 #show cancherito
 
 label start:
     # El prologo es una pantalla negra con monologo del PP
-
+    play music "sounds/bg_sound.mp3"
     call prologo
     
     
