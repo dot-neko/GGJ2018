@@ -18,6 +18,3 @@ image epregunta = "epregunta.png"
 
 
 image esonrisa = "esonrisa.png"
-
-
-

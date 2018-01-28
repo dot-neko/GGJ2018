@@ -10,11 +10,11 @@ label prologo:
     $ player_name = player_name.strip()
 
     if player_name == "":
-    	"No importa. Recordaste de repente que tu nombre era Pepito."
+        "No importa. Recordaste de repente que tu nombre era Pepito."
         $ player_name="Pepito"
 
-  #Preguntar el nombre del personaje o decidir uno si lo deja en blanco
-	define c = Character("[player_name]", color="#c8c8ff")
+    #Preguntar el nombre del personaje o decidir uno si lo deja en blanco
+    define c = Character("[player_name]", color="#c8c8ff")
 
     scene black
 
