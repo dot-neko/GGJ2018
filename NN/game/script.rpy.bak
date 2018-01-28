@@ -17,22 +17,22 @@ image black = "#000"
 label start:
     # El prologo es una pantalla negra con monologo del PP
     play music "sounds/bg_sound.mp3"
-    call prologo from _call_prologo
+    call prologo
     
     
     # Llama a la intro del juego
-    call intro from _call_intro
+    call intro
 
     show epregunta
 
     # Llama a la primer pregunta
-    call pregunta1 from _call_pregunta1
+    call pregunta1
 
     # Llama a la segunda pregunta
-    call pregunta2 from _call_pregunta2
+    call pregunta2
 
     # Llama a la tercer pregunta
-    call pregunta3 from _call_pregunta3
+    call pregunta3
 
     # Evaluacion de las respuestas
 
@@ -89,7 +89,7 @@ label start:
 
 
     # Finaliza el juego:
-    call resultados from _call_resultados
+    call resultados
 
 
     return
