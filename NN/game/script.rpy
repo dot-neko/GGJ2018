@@ -5,13 +5,14 @@
 #Entrevistador cuando todavia no se presento
 define e = Character("Entrevistador", color="#c8ffc8")
 
-#Preguntar el nombre del personaje o decidir uno si lo deja en blanco
-define c = Character("PP", color="#c8c8ff")
-
 #Nombre entrevistador una vez que se presenta
-define a = Character("Andres", color="#c8ffc8")
+define a = Character("Chica", color="#c8ffc8")
 
+#Fondo Negro
+image black = "#000"
 
+#Fondo Blanco
+image white = "#fff"
 # El juego comienza aquí.
 
 label start:
@@ -22,13 +23,12 @@ label start:
     # Muestra una imagen de fondo inicial
 
     #scene bg_one
-
-    # Muestra la imagen de fondo a usar en el juego
-
-    scene bg room
-    
+ 
     # Llama a la intro del juego
     call intro
+
+    # Muestra la imagen de fondo a usar en el juego
+    scene bg room
 
     # Llama a la primer pregunta
     call pregunta1
@@ -37,24 +37,57 @@ label start:
     call pregunta2
 
     # Llama a la tercer pregunta
-
     call pregunta3
+
     # Evaluacion de las respuestas
 
+    # Respuesta 1
     if (practico == True and complejo == True):
 
-        $repuesta1 = "un equipo veterano en la pcia de Santa Cruz"
+        $respuesta1 = "un equipo veterano en la pcia de Santa Cruz"
 
     if (practico == False and complejo == True):
 
-        $repuesta1 = "un equipo nuevo en la ciudad de Bs As"
+        $respuesta1 = "un equipo nuevo en la ciudad de Bs As"
 
     if (practico == True and complejo == False):
 
-        $repuesta1 = "un equipo pequeño en la ciudad de Mendoza"
+        $respuesta1 = "un equipo pequeño en la ciudad de Mendoza"
 
+    #Respuesta 2
+    #Opcion Roja
+    if (horasextras == False and variosturnos == False):
+
+        $respuesta2 = "con un sueldo mínimo, sin horas extras ni trabajos adicionales"
+
+    #Opcion Naranja
+    if (horasextras == False and variosturnos == True):
+
+        $respuesta2 = "con un horario reducido, con opción a horas extras"
+
+    #Opcion Verde
+    if (horasextras == True and variosturnos == False):
+
+        $respuesta2 = "con un horario completo, con la opción a realizar horas extras"
     # Finaliza el juego:
 
+    #Respuesta 3
+    #Opcion Roja
+    if (scompleja == True and ssocial == True):
+
+        $respuesta3 = ""
+
+    #Opcion Naranja
+    if (scompleja == False and ssocial == True):
+
+        $respuesta3 = ""
+
+    #Opcion Verde
+    if (scompleja == True and ssocial == False):
+
+        $respuesta3 = ""
+    # Finaliza el juego:
     call resultados
+
 
     return

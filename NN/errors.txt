@@ -2,16 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/respuesta final.rpy", line 3: end of line expected.
-    c "De acuerdo Sr Alvarez, segun los resultados de esta entrevista, hemos decidido que usted trabajara con", [respuesta1]
-                                                                                                              ^
+File "game/pregunta_3.rpy", line 27: end of line expected.
+    c "Creo en mis habilidades y que puedo llevar adelante cualquier proyecto, sin importar las cualidades del equipo".
+                                                                                                                      ^
 
-File "game/respuesta final.rpy", line 4: end of line expected.
-    c "En el horario de", [respuesta2]
-                        ^
-
-File "game/respuesta final.rpy", line 5: end of line expected.
-    c "y en el puesto de", [respuesta3]
-                         ^
-
-Ren'Py Version: Ren'Py 6.99.14.3135
+Ren'Py Version: Ren'Py 6.99.13.2919
