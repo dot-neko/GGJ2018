@@ -28,7 +28,7 @@ label pregunta3:
             show ejodida
             show etevasaenterar
             a "Interesante. Creo que hay pocos perfiles adecuados como el suyo."
-            a "Creo que existen varias oportunidades para que pueda desarrollar sus <b>habilidades únicas</b>."
+            a "Creo que existen varias oportunidades para que pueda desarrollar sus {b}habilidades únicas{/b}."
             show esonrisa
 
     return
