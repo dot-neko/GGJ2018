@@ -37,15 +37,15 @@ label start:
     # Evaluacion de las respuestas
 
     # Respuesta 1
-    if (practico == True and complejo == True):
+    if (social == True and complejo == True):
 
         $respuesta1 = "un equipo veterano en la India "
 
-    if (practico == False and complejo == True):
+    if (social == False and complejo == True):
 
         $respuesta1 = "un equipo nuevo en la ciudad de Bs As"
 
-    if (practico == True and complejo == False):
+    if (social == True and complejo == False):
 
         $respuesta1 = "un equipo pequeño en la Patagonia."
 
@@ -68,31 +68,26 @@ label start:
 
     #Respuesta 3
     #Opcion Roja
-    if (scompleja == True and ssocial == True):
+    if (complejo == True and practico == True):
 
-<<<<<<< HEAD
-        $respuesta3 = "Supervisor de un grupo pequeno de tecnicos en ruta."
-=======
-        $respuesta3 = "coordinador de un área de mantenimiento a usuarios finales"
->>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
+
+        $respuesta3 = "Supervisor de un area de mantenimiento a usuarios finales."
+
 
     #Opcion Naranja
-    if (scompleja == False and ssocial == True):
+    if (compleja == False and practico == True):
 
-<<<<<<< HEAD
+
         $respuesta3 = "Supervisor de un grupo especializado en microinformatica."
-=======
-        $respuesta3 = "coordinador de tareas entre los equipos de IT & diseño"
->>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
+
 
     #Opcion Verde
-    if (scompleja == True and ssocial == False):
+    if (compleja == True and practico == False):
 
-<<<<<<< HEAD
+
         $respuesta3 = "Supervisor de un grupo grande de marketing."
-=======
-        $respuesta3 = " supervisor de un equipo experimentado"
->>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
+
+
     # Finaliza el juego:
     call resultados
 

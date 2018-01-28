@@ -4,8 +4,8 @@ label pregunta3:
         a "¿Qué puedes hacer por la compania que nadie mas pueda?"
         #Opcion Verde
         "♩TRABAJO MUY DURO, COMO UN ESCLAVO♪":
-            $scompleja = True
-            $ssocial = False
+            $compleja = True
+            $social = False
             c "Creo que el equipo toma forma sólo cuando hay una gran tarea por delante."
             show enormal
             a "Cierto, a veces se puede ir avanzando sólo con un objetivo claro."
@@ -13,8 +13,8 @@ label pregunta3:
 
         #Opcion Naranja
         "Me interesa trabajar y tener buena onda con el equipo ◕ ◡ ◕ ":
-            $scompleja = False
-            $ssocial = True 
+            $compleja = False
+            $social = True 
             show ejodida
             show enormal
             c "Me interesa que el equipo funcione, con lo que el aspecto humano no puede faltar ante una gran tarea."
@@ -22,8 +22,8 @@ label pregunta3:
             
         #Opcion Roja
         "Deal with it":
-            $scompleja = True
-            $ssocial = True
+            $compleja = True
+            $social = True
             c "Creo en mis habilidades y que puedo llevar adelante cualquier proyecto, sin importar las cualidades del equipo"
             show ejodida
             show etevasaenterar
