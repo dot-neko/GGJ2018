@@ -1,6 +1,7 @@
 label pregunta1:
-scene fondoe
+    
     menu:
+            scene fondoe
         "Si pudieras elegir el trabajo de supervisor ideal para ti, ¿cual seria?"
         #Opcion Verde
         "No me la juego: Equipo chico":
@@ -8,9 +9,8 @@ scene fondoe
             $complejo = False
             c "Sinceramente, me parece apropiado comenzar con un equipo pequeño."
             c "Mis habilidades son limitadas y no tengo mucha experiencia en el rubro, por lo que veo bien manejar un grupo chico de personas para poder dedicarles mi mayor atención."
-            show esonrisa
             a "Me parece bien que reconozcas tus capacidades. Eso es algo que no veo todos los dias."
-            show enormal
+            show esonrisa
             a "De acuerdo, podemos ir trabajando sobre esto."
 
         #Opcion Naranja

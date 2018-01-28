@@ -11,12 +11,9 @@ define a = Character("Chica", color="#c8ffc8")
 #Fondo Negro
 image black = "#000"
 
-#Fondo Blanco
-image white = "#fff"
 # El juego comienza aquí.
 
 #show cancherito
-scene fondo
 
 label start:
     # El prologo es una pantalla negra con monologo del PP
