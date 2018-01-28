@@ -2,7 +2,7 @@
 image fondo = "fondo.png"
 
 
-image fondoe = "fondoentrevistadora.png"
+image fondoe = "fondoe.png"
 
 
 image ejodida = "ejodida.png"
