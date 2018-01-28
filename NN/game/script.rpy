@@ -9,7 +9,7 @@ define e = Character("Entrevistador", color="#c8ffc8")
 define c = Character("PP", color="#c8c8ff")
 
 #Nombre entrevistador una vez que se presenta
-define a = Character("Andres", color="#c8ffc8")
+define a = Character("Chica", color="#c8ffc8")
 
 
 # El juego comienza aquí.
@@ -75,17 +75,17 @@ label start:
     #Opcion Roja
     if (scompleja == True and ssocial == True):
 
-        $respuesta3 = "con un sueldo mínimo, sin horas extras ni trabajos adicionales"
+        $respuesta3 = ""
 
     #Opcion Naranja
     if (scompleja == False and ssocial == True):
 
-        $respuesta3 = "con un horario reducido, con opción a horas extras"
+        $respuesta3 = ""
 
     #Opcion Verde
     if (scompleja == True and ssocial == False):
 
-        $respuesta3 = "con un horario completo, con la opción a realizar horas extras"
+        $respuesta3 = ""
     # Finaliza el juego:
     call resultados
 

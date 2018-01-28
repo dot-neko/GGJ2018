@@ -1,4 +1,4 @@
-Sat Jan 27 18:16:23 2018
+Sat Jan 27 21:08:35 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
  
@@ -22,7 +22,7 @@ DPI scale factor: 1.000000
 Creating interface object took 0.03s
 Cleaning stores took 0.00s
 Init translation took 0.04s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.07s
@@ -430,25 +430,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.41400003433s
+Total time until interface ready: 1.42300009727s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.055000 seconds.
-- Frame drawn at 0.056000 seconds.
-- Frame drawn at 0.057000 seconds.
-- Frame drawn at 0.074000 seconds.
-- 0.074000 seconds to render 5 frames.
-Cleaning stores took 0.00s
-Init translation took 0.18s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.19s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
+- Frame drawn at 0.070000 seconds.
+- Frame drawn at 0.071000 seconds.
+- Frame drawn at 0.076000 seconds.
+- Frame drawn at 0.093000 seconds.
+- 0.093000 seconds to render 5 frames.
