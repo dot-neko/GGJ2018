@@ -29,10 +29,11 @@ label pregunta1:
         "◔_◔ Esta es fácil":
             $practico = True
             $complejo = True
+            $cabreo =+ 1
             c "Creo que me encuentro en condiciones para liderar cualquier equipo"
             #cara sarcastica flash
-            a "Aja, me imaginaba que tus capacidades eran superiores"
             #cara pensando
+            a "Aja, me imaginaba que tus capacidades eran superiores. Esta en su evaluación de perfil."
             a "De acuerdo, vamos a ver como podemos avanzar sobre esto."
             #cara normal
 

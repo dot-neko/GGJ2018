@@ -5,13 +5,14 @@
 #Entrevistador cuando todavia no se presento
 define e = Character("Entrevistador", color="#c8ffc8")
 
-#Preguntar el nombre del personaje o decidir uno si lo deja en blanco
-define c = Character("PP", color="#c8c8ff")
-
 #Nombre entrevistador una vez que se presenta
 define a = Character("Chica", color="#c8ffc8")
 
+#Fondo Negro
+image black = "#000"
 
+#Fondo Blanco
+image white = "#fff"
 # El juego comienza aquí.
 
 label start:
@@ -22,13 +23,12 @@ label start:
     # Muestra una imagen de fondo inicial
 
     #scene bg_one
-
-    # Muestra la imagen de fondo a usar en el juego
-
-    scene bg room
-    
+ 
     # Llama a la intro del juego
     call intro
+
+    # Muestra la imagen de fondo a usar en el juego
+    scene bg room
 
     # Llama a la primer pregunta
     call pregunta1

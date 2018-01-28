@@ -22,9 +22,11 @@ label pregunta3:
         "Deal with it":
             $scompleja = True
             $ssocial = True
+            c "Creo en mis habilidades y que puedo llevar adelante cualquier proyecto, sin importar las cualidades del equipo"
             #Cara sorpresa flash
             #Cara cabreada
-            c "Creo en mis habilidades y que puedo llevar adelante cualquier proyecto, sin importar las cualidades del equipo".
-
+            a "Interesante. Creo que hay pocos perfiles adecuados como el suyo."
+            a "Creo que existen varias oportunidades para que pueda desarrollar sus <b>habilidades únicas</b>."
+            #Ver opcion de colgar llamada si se supera cabreo>3
 
     return
