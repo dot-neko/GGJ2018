@@ -10,7 +10,7 @@ define a = Character("Chica", color="#c8ffc8")
 
 #Fondo Negro
 image black = "#000"
-
+play music "bg_sound.mp3" loop
 # El juego comienza aquí.
 
 #show cancherito
@@ -71,17 +71,17 @@ label start:
     #Opcion Roja
     if (scompleja == True and ssocial == True):
 
-        $respuesta3 = ""
+        $respuesta3 = "coordinador de un área de mantenimiento a usuarios finales"
 
     #Opcion Naranja
     if (scompleja == False and ssocial == True):
 
-        $respuesta3 = ""
+        $respuesta3 = "coordinador de tareas entre los equipos de IT & diseño"
 
     #Opcion Verde
     if (scompleja == True and ssocial == False):
 
-        $respuesta3 = ""
+        $respuesta3 = " supervisor de un equipo experimentado"
     # Finaliza el juego:
     call resultados
 
