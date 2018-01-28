@@ -22,7 +22,7 @@ label start:
 
     call prologo
 
-    Show fondoe
+    Show efondo
 
     #scene bg_one
     show e sonrisa

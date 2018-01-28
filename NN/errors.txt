@@ -2,8 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/pregunta_3.rpy", line 27: end of line expected.
-    c "Creo en mis habilidades y que puedo llevar adelante cualquier proyecto, sin importar las cualidades del equipo".
-                                                                                                                      ^
+File "game/prologo.rpy", line 5: Tab characters are not allowed in Ren'Py scripts.
 
-Ren'Py Version: Ren'Py 6.99.13.2919
+File "game/script.rpy", line 25: expected statement.
+    Show fondoe
+               ^
+
+Ren'Py Version: Ren'Py 6.99.14.3135
