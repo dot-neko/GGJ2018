@@ -6,7 +6,7 @@
 define e = Character("Entrevistador", color="#c8ffc8")
 
 #Nombre entrevistador una vez que se presenta
-define a = Character("Chica", color="#c8ffc8")
+define a = Character("Andrea", color="#c8ffc8")
 
 #Fondo Negro
 image black = "#000"
