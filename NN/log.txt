@@ -1,57 +1,39 @@
-Sun Jan 28 14:57:01 2018
+Sun Jan 28 15:06:07 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135
  
 
-Bootstrap to the start of init.init took 0.32s
-Early init took 0.01s
+Bootstrap to the start of init.init took 0.31s
+Early init took 0.02s
 Loader init took 0.08s
-Loading error handling took 0.07s
-Loading script took 0.83s
-Loading save slot metadata. took 0.04s
+Loading error handling took 0.06s
+Loading script took 0.64s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 71: if statement expects a non-empty block.
-    if (scompleja == True and ssocial == True):
-                                               ^
-
-File "game/script.rpy", line 73: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 75: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 77: expected statement.
-    >>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
-                                                    ^
-
-File "game/script.rpy", line 82: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 84: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 86: expected statement.
-    >>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
-                                                    ^
-
-File "game/script.rpy", line 91: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 93: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 95: expected statement.
-    >>>>>>> f2aa13ddef9720db6a06a78b0f141a6b5696bb87
-                                                    ^
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.26s
+Loading analysis data took 0.16s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\louga\\AppData\\Roaming/RenPy/backups\\NN':
+Dump and make backups. took 0.26s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
 DPI scale factor: 1.000000
-Interface start took 0.31s
+Creating interface object took 0.09s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.21s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.14s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
 Couldn't import angle renderer:
 Traceback (most recent call last):
   File "C:\game\renpy-6.99.13-sdk\renpy\display\core.py", line 1884, in make_draw
@@ -276,4 +258,37 @@ Using gl renderer.
 Texture testing:
 - Hardware max texture size: 16384
 - 64px textures work.
--
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 4.63499999046s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.018667 seconds.
+- Frame drawn at 0.031667 seconds.
+- Frame drawn at 0.047667 seconds.
+- Frame drawn at 0.075667 seconds.
+- 0.075667 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.48s
+Build styles took 0.04s
+Load screen analysis took 0.19s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.53s
+Build styles took 0.06s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
